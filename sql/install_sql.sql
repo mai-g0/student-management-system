@@ -309,11 +309,12 @@ CREATE TABLE `setting` (
 INSERT INTO `setting` (`id`, `option_name`, `option_value`) VALUES  
 (1, 'site_name', 'Open Source Student Management System'),  
 (2, 'sort_name', 'EMS'), 
-(3, 'address', 'Dhaka, Bangladesh'), 
+(3, 'address', 'Nairobi, 
+Kenya'), 
 (4, 'main_logo', 'techserm_full_logo.jpg'),  
 (5, 'logo', 'techserm_small_logo.png'),  
 (6, 'phone', '-'),  
-(7, 'email', 'sk.amirhamza@gmail.com'),  
+(7, 'email', 'maigoyvonne0@gmail.com'),  
 (8, 'msg', 'EMS');  
 
 -- --------------------------------------------------------
