@@ -129,7 +129,7 @@ $html1="
   	 		</tr>
   	 		<tr>
   	 			<td class='td_name'>Name: </td>
-  	 			<td class='td_value'>Sk.Amir Hamza</td>
+  	 			<td class='td_value'>Sk.Yvonne Maigo</td>
   	 		</tr>
   	 		<tr>
   	 			<td class='td_name'>Type: </td>
@@ -158,7 +158,7 @@ $html1="
   	 		</tr>
   	 		<tr>
   	 			<td class='td_name'>Previous Total Pay: </td>
-  	 			<td class='td_value'>Sk.Amir Hamza</td>
+  	 			<td class='td_value'>Sk.Yvonne Maigo</td>
   	 		</tr>
   	 		<tr>
   	 			<td class='td_name'>Previous Total Due: </td>
@@ -197,7 +197,7 @@ $html = "
   	 		</tr>
   	 		<tr>
   	 			<td class='td_name'>Previous Total Pay: </td>
-  	 			<td class='td_value'>Sk.Amir Hamza</td>
+  	 			<td class='td_value'>Sk.Yvonne Maigo</td>
   	 		</tr>
   	 		<tr>
   	 			<td class='td_name'>Previous Total Due: </td>
