@@ -65,5 +65,5 @@ function total(){
 function test(id){
 	alert("saf");
 	m_id="test_"+id;
-	document.getElementById(m_id).innerHTML="<option>hamza</option>";
+	document.getElementById(m_id).innerHTML="<option>maigo</option>";
 }

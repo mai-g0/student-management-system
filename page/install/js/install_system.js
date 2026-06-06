@@ -10,7 +10,7 @@ function view_install_page(){
    var data={
    	'view_install_page': 1
    }
-   document.getElementById('install_body').innerHTML="hamza";
+   document.getElementById('install_body').innerHTML="maigo";
     loader("install_body",160);
 
     $.ajax({

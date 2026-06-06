@@ -51,7 +51,7 @@ $id=$_GET['id'];
 $en=(int)(($id%4)*(100%7)+35-4+3);
 $id="#@".$id;
 $en=base64_encode($id);
-$en=generateStrongPassword(6,false,"hamza");
+$en=generateStrongPassword(6,false,"maigo");
 echo "$en";
 
 }

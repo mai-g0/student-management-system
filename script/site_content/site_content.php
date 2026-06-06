@@ -174,7 +174,7 @@ class site_content extends site_config
     
     public function get_user_name($uid)
     {
-        $uname = "hamza";
+        $uname = "maigo";
         return $uname;
     }
     

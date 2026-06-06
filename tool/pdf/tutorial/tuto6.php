@@ -117,7 +117,7 @@ $html1="
       <img class='barcode_recept' src='https://thewindowsclub-thewindowsclubco.netdna-ssl.com/wp-content/uploads/2011/11/Barcode.jpg'><br/>	
       <b>Recept No:</b> <u>450</u><br/>
       <b>Recept Date:</b> 23-8-2018 4:32:23<br/>
-      <b>Receive By:</b> Hamza<br/>
+      <b>Receive By:</b> maigo<br/>
     </div>
   </div>
   <div class='payment_recept_body'>

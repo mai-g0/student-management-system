@@ -203,7 +203,7 @@ table{
     <?php //for($i=0; $i<100; $i++){ ?>
     <td class="t_mobile">100000001</td>
     <td class="t_msg">jhga sddfas dfsdafsdafsadfasdf sdafsadfsdfsdfsdafsdfsdasdfa</td>
-    <td class="t_sta">Hamza</td>
+    <td class="t_sta">maigo</td>
     <td class="t_tok">10000000454</td>
   </tr>
   <?php //} ?>

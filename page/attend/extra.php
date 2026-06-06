@@ -32,7 +32,7 @@ $url="https://www.jqueryscript.net/demo/Exporting-Html-Tables-To-CSV-XLS-XLSX-Te
                                 <?php for($i=0; $i<30; $i++){ ?>    
                                 <tr>
                                     <td><?php echo "$i"; ?></td>
-                                    <td>Hamza</td>
+                                    <td>maigo</td>
                                     <td>1,370,570,000</td>
                                     <td>18.9%</td>
                                     <td>June 24, 2015</td>
