@@ -18,7 +18,7 @@
 }
 .dropdown-toggle:focus{
     outline: 0 !important;
-    background-color: rgba(0,0,0,0.3)!important;
+    background-color: rgba(2, 2, 2, 0.3)!important;
 }
 
 .navbar_right_custom:hover{
@@ -28,7 +28,7 @@
 }
 .navbar_right_custom:focus{
     outline: 0 !important;
-    background-color: rgba(0,0,0,0.3)!important;
+    background-color: rgba(0, 0, 0, 0.3)!important;
 }
 .dropdown:hover{
   background: none;
