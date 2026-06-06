@@ -1505,7 +1505,7 @@ abstract class BarcodeGenerator
         if ($code_len == $data_len) {
             // add check digit
             $code .= $r;
-        } elseif ($r !== intval($code{$data_len})) {
+        } elseif ($r !== intval($code[$data_len])) {
             throw new InvalidCheckDigitException();
         }
         if ($len == 12) {
