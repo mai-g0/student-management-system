@@ -45,10 +45,10 @@ $db=new database();
             
             <button type="submit" style="font-size: 16px;" id="login_btn" onclick="login()" name="login" class="btn btn-default btn-block btn-custom">Login</button> 
         </div>
+
+        <div class="footer_login">Developed By: <a class="a_footer" href="https://github.com/mai-g0">Yvonne Maigo</a></div>
         
     </div>
-    
-
 </div>
 
 </div>
@@ -74,168 +74,34 @@ function loader(){
 
 <style type="text/css">
 
+body, html {
+    background: linear-gradient(135deg, #0a0a2e, #1a0030);
+    background-size: cover;
+}
 
+#login-box {
+    background: rgba(0, 20, 60, 0.95) !important;
+}
 
-  @keyframes lds-ellipsis3 {
-  0%, 25% {
-    left: 32px;
-    -webkit-transform: scale(0);
-    transform: scale(0);
-  }
-  50% {
-    left: 32px;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-  75% {
-    left: 100px;
-  }
-  100% {
-    left: 168px;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
+.header_box {
+    background: #4CAF82 !important;
 }
-@-webkit-keyframes lds-ellipsis3 {
-  0%, 25% {
-    left: 32px;
-    -webkit-transform: scale(0);
-    transform: scale(0);
-  }
-  50% {
-    left: 32px;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-  75% {
-    left: 100px;
-  }
-  100% {
-    left: 168px;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
+
+.icon {
+    background: #4CAF82 !important;
 }
-@keyframes lds-ellipsis2 {
-  0% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-  25%, 100% {
-    -webkit-transform: scale(0);
-    transform: scale(0);
-  }
+
+#login-box button.btn-custom {
+    background: #4CAF82 !important;
+    border-color: #4CAF82 !important;
 }
-@-webkit-keyframes lds-ellipsis2 {
-  0% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-  25%, 100% {
-    -webkit-transform: scale(0);
-    transform: scale(0);
-  }
+
+#login-box button.btn-custom:hover {
+    background: #3d9e6e !important;
 }
-@keyframes lds-ellipsis {
-  0% {
-    left: 32px;
-    -webkit-transform: scale(0);
-    transform: scale(0);
-  }
-  25% {
-    left: 32px;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-  50% {
-    left: 100px;
-  }
-  75% {
-    left: 168px;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-  100% {
-    left: 168px;
-    -webkit-transform: scale(0);
-    transform: scale(0);
-  }
+
+.a_footer {
+    color: #4CAF82 !important;
 }
-@-webkit-keyframes lds-ellipsis {
-  0% {
-    left: 32px;
-    -webkit-transform: scale(0);
-    transform: scale(0);
-  }
-  25% {
-    left: 32px;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-  50% {
-    left: 100px;
-  }
-  75% {
-    left: 168px;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-  100% {
-    left: 168px;
-    -webkit-transform: scale(0);
-    transform: scale(0);
-  }
-}
-.lds-ellipsis {
-  position: relative;
-}
-.lds-ellipsis > div {
-  position: absolute;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  width: 44px;
-  height: 44px;
-}
-.lds-ellipsis div > div {
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  background: #f00;
-  position: absolute;
-  top: 100px;
-  left: 32px;
-  -webkit-animation: lds-ellipsis 2s cubic-bezier(0, 0.5, 0.5, 1) infinite forwards;
-  animation: lds-ellipsis 2s cubic-bezier(0, 0.5, 0.5, 1) infinite forwards;
-}
-.lds-ellipsis div:nth-child(1) div {
-  -webkit-animation: lds-ellipsis2 2s cubic-bezier(0, 0.5, 0.5, 1) infinite forwards;
-  animation: lds-ellipsis2 2s cubic-bezier(0, 0.5, 0.5, 1) infinite forwards;
-  background: #be2222;
-}
-.lds-ellipsis div:nth-child(2) div {
-  -webkit-animation-delay: -1s;
-  animation-delay: -1s;
-  background: #d72929;
-}
-.lds-ellipsis div:nth-child(3) div {
-  -webkit-animation-delay: -0.5s;
-  animation-delay: -0.5s;
-  background: #d51515;
-}
-.lds-ellipsis div:nth-child(4) div {
-  -webkit-animation-delay: 0s;
-  animation-delay: 0s;
-  background: #d92c2c;
-}
-.lds-ellipsis div:nth-child(5) div {
-  -webkit-animation: lds-ellipsis3 2s cubic-bezier(0, 0.5, 0.5, 1) infinite forwards;
-  animation: lds-ellipsis3 2s cubic-bezier(0, 0.5, 0.5, 1) infinite forwards;
-  background: #be2222;
-}
-.lds-ellipsis {
-  width: 200px !important;
-  height: 200px !important;
-  -webkit-transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
-  transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
-}
+
 </style>
