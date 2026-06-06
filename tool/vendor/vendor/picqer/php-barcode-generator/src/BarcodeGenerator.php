@@ -1065,7 +1065,7 @@ abstract class BarcodeGenerator
             $seq = '';
             $chrlen = strlen($chr[$char_bar]);
             for ($s = 0; $s < $chrlen; $s++) {
-                $seq .= $chr[$char_bar]{$s} . $chr[$char_space]{$s};
+                $seq .= $chr[$char_bar][$s] . $chr[$char_space][$s];
             }
             $seqlen = strlen($seq);
             for ($j = 0; $j < $seqlen; ++$j) {
