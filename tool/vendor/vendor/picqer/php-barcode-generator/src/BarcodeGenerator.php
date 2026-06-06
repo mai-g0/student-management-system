@@ -1057,7 +1057,7 @@ abstract class BarcodeGenerator
         $clen = strlen($code);
         for ($i = 0; $i < $clen; $i = ($i + 2)) {
             $char_bar = $code[$i];
-            $char_space = $code{$i + 1};
+            $char_space = $code[$i + 1];
             if ( ! isset($chr[$char_bar]) || ! isset($chr[$char_space])) {
                 throw new InvalidCharacterException();
             }
@@ -1262,7 +1262,7 @@ abstract class BarcodeGenerator
                     throw new InvalidLengthException('Length must be even');
                 }
                 for ($i = 0; $i < $len; $i += 2) {
-                    $chrnum = $code[$i] . $code{$i + 1};
+                    $chrnum = $code[$i] . $code[$i + 1];
                     if (preg_match('/([0-9]{2})/', $chrnum) > 0) {
                         $code_data[] = intval($chrnum);
                     } else {
@@ -1379,7 +1379,7 @@ abstract class BarcodeGenerator
                                 $code_data[] = 99;
                             }
                             for ($i = 0; $i < $seq[2]; $i += 2) {
-                                $chrnum = $seq[1][$i] . $seq[1]{$i + 1};
+                                $chrnum = $seq[1][$i] . $seq[1][$i + 1];
                                 $code_data[] = intval($chrnum);
                             }
                             break;
