@@ -45,7 +45,7 @@ $db=new database();
             
             <button type="submit" style="font-size: 16px;" id="login_btn" onclick="login()" name="login" class="btn btn-default btn-block btn-custom">Login</button> 
         </div>
-        <div class="footer_login" style="">Developed By: <a href="https://github.com/amirhamza05/Student-Management-System"><font style="font-size: 19px;font-weight: bold;color: #F64343">Yvonne Maigo</font></a></div>
+        
     </div>
     
 

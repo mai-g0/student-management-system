@@ -25,7 +25,7 @@
                         <div style="margin-top: 10px;"></div>
                         <b style="font-size: 13px;">Open Source</b><br/>
                         <b style="font-size: 25px;">Student Management System</b><br/>
-                        By <b style="font-size: 16px;"><a href="https://github.com/amirhamza05" style="color: #ffffff">Yvonne Maigo</a></b>
+                    
                         <div style="margin-top: 35px;text-align: left;">
                             <ul style="font-size: 15px;">
                                 <li>Add Student Information</li>
@@ -42,7 +42,7 @@
                             </ul>
                         </div>
                         
-                        <a href="https://github.com/amirhamza05/Student-Management-System"><input type="submit" name="" value="Github"/></a><br/>
+                       
                     </div>
                     <div class="col-md-8 col-sm-12 register-right">
                         
@@ -132,7 +132,7 @@
 }
 
 @keyframes myanimation1 {
-  0% {background-color: #a4b0be;}
+  0% {background-color: #accff7;}
   25%{background-color:#f1f2f6;}
   50%{background-color:#dfe4ea;}
   75%{background-color:#ced6e0;}
